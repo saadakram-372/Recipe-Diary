@@ -2,16 +2,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.recipediary">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
-        android:hardwareAccelerated="false"
-        android:largeHeap="true"
         android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+
+        <activity
+            android:name=".Activity.MainActivity"
             android:label="Recipe Diary">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,14 +24,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login"
-            android:label="Log In">
-        </activity>
 
-        <activity android:name=".signup"
-            android:label="Sign Up">
-        </activity>
-        <activity android:name=".Intro" />
+        <activity
+            android:name=".Activity.login"
+            android:label="Log In"></activity>
+
+        <activity
+            android:name=".Activity.signup"
+            android:label="Sign Up"></activity>
+
+        <activity android:name=".Activity.Intro" ></activity>
+
+        <activity
+            android:name=".Activity.home"
+            android:label="Home"></activity>
+
+        <activity
+            android:name=".Activity.favourites"
+            android:label="Favourites"></activity>
+
+        <activity android:name=".Activity.about"
+            android:label="About"></activity>
+
+        <activity android:name=".Activity.contact"
+            android:label="Contact"></activity>
+
     </application>
 
 </manifest>

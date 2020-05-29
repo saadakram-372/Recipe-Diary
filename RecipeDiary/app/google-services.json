@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "634864793760",
+    "firebase_url": "https://recipe-diary-d0a3b.firebaseio.com",
+    "project_id": "recipe-diary-d0a3b",
+    "storage_bucket": "recipe-diary-d0a3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634864793760:android:d153587204a96e4ddef1c5",
+        "android_client_info": {
+          "package_name": "com.example.recipediary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634864793760-8jls03g1j1nrql3cmuim6am56scm1qpp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recipediary",
+            "certificate_hash": "d3c54747cc35f40cd1be7197f1d10d0f47651fa9"
+          }
+        },
+        {
+          "client_id": "634864793760-70q9qibavqf50g3oh6gg2tfurpjk4hpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXINIqgf6_dIAL_5GGgEYhWgjhx3VSduU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634864793760-70q9qibavqf50g3oh6gg2tfurpjk4hpp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

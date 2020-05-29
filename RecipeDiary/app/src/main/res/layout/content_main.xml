@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            android:id="@+id/textbox"
+            android:textColor="#FFFFFF"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="Search Recipes Here">
+        </EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Search"
+            android:id="@+id/search_button"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="80dp"
+            android:layout_toRightOf="@+id/textbox">
+
+        </Button>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:background="@xml/progressbar"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+        <ListView
+            android:id="@+id/listview_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp">
+
+        </ListView>
+
+    </RelativeLayout>
+</LinearLayout>
